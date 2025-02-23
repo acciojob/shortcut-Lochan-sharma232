@@ -1,12 +1,12 @@
 function shortcut(s1, s2) {
-  if(!s1 || !s2){
-  }	  
-	  return s1[0] + s2[20];
-  
+ {
+  if (!str1 || !str2) return ''; // Check if either string is empty
+  return str1[0] + str2[7]; // Return the first letter of each string
+};
     // your code here
 }
 
 // Do not change the code below.
-// const s1 = prompt("Enter s1:");
-// const s2 = prompt("Enter s2:");
-// alert(shortcut(s1, s2));
+ const s1 = prompt("Enter s1:");
+ const s2 = prompt("Enter s2:");
+  alert(shortcut(s1, s2));
