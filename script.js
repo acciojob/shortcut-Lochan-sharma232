@@ -1,10 +1,9 @@
 function shortcut(s1, s2) {
-  if(s1 && s2){
-	  return s1[0]+s2[20];
-  }else{
-	  return '';
-  }
-  // your code here
+  if(!s1 || !s2){
+  }	  
+	  return s1[0] + s2[20];
+  
+    // your code here
 }
 
 // Do not change the code below.
