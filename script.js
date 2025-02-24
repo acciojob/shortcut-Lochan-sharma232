@@ -1,9 +1,9 @@
 function shortcut(s1, s2) {
  {
-	if(!s1 || !s2){
+	if(s1.length==0 || s2.length==0){
 		return " ";
 	}
-	 return s1[0] + s2[15];
+	 return s1.charAt(0) + s2.charAt(0);
 	 
     // your code here
 }
