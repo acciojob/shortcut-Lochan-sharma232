@@ -1,8 +1,10 @@
 function shortcut(s1, s2) {
  {
-  if (!str1 || !str2) return ''; // Check if either string is empty
-  return str1[0] + str2[7]; // Return the first letter of each string
-};
+	if(!s1 || !s2){
+		return " ";
+	}
+	 return s1[0] + s2[15];
+	 
     // your code here
 }
 
